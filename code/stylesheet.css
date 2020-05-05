@@ -1,0 +1,547 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+
+
+body {
+  margin: 0;
+  height: 2400px;
+  width: 100%;
+  background-color: black;
+  }
+
+div{
+  display: block;
+}
+
+h1{
+  font-size:27px;
+  font-weight: lighter: ;
+}
+
+.btn{
+  cursor: pointer;
+}
+
+
+
+header{
+  font-family: "Courier";
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  height: 30px;
+  padding-top:2px;
+  margin-top: -30px;
+}
+
+.header_bannar a{
+  padding-left:12px;
+  font-size: 19px;
+  color: white;
+
+}
+
+
+.header_bannar{
+  float: right;
+  padding-right: 25px;
+  padding-left: 30px;
+  color: white;
+
+  }
+
+.fa-instagram{
+  padding-top: 2px;
+  padding-left: 50px;
+}
+
+
+/*----------------------------------*/
+
+
+.top_img{
+  margin-left: 130px;
+  margin-top:  90px;
+  height: 600px;
+  background-image: url(../photo/top.jpg);
+  background-size: cover;
+}
+
+.top_title{
+  float: left;
+}
+
+.top_title{
+  margin-top: 0px;
+  margin-left: 20px;
+  float: reft;
+}
+
+.top_title img{
+  width: 60%;
+  padding-top:150px;
+}
+
+
+
+
+/*--------ABOUT------------------------------------*/
+#page_about{
+  witdh: 100%;
+  background-color: #236966;
+  margin-top: 60px;
+  margin-bottom: 100px;
+  padding-bottom: 50px;
+  font-family: "Hiragino Kaku Gothic";
+}
+
+.about_left{
+  width: 55%;
+  float: left;
+  padding-top: 100px;
+  padding-left: 80px;
+  color: white;
+}
+
+
+.about_right img{
+  text-align: center;
+  height: 550px;
+  padding-top: 100px;
+  margin-left: 50px;
+}
+
+.about_title{
+  float:left;
+  writing-mode: tb-rl;
+  font-size: 27px;
+  color: black;
+  padding-left: 30px;
+  padding-top: 300px;
+}
+
+.about_title_hidden{
+    display: none;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+/*-------------WORK------------------------------------*/
+
+.wrapper {
+  text-align: center;
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 45px;
+}
+
+#page_work{
+  height: 800px;
+  background-color: black;
+  margin-top:100px;
+  padding-top: 15px;
+  padding-bottom: : 200px;
+  font-family: "Hiragino Kaku Gothic";
+}
+
+.work_title{
+  float:left;
+  writing-mode: tb-rl;
+  font-size: 27px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 45px;
+  padding-top: 260px;
+}
+.work_title_hidden{
+  display: none;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+
+.slide-wrapper ul {
+  list-style: none;
+}
+
+
+
+.slide-title {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+
+
+
+.slides {
+  padding: 0;
+  float: left;
+  width:900px;
+  margin-top: 5px;
+}
+
+.slide {
+  display: none;
+}
+
+
+.active {
+  display: block;
+  float: left;
+  }
+
+.slide img {
+  width: 900px;
+  height: auto;
+  padding: 0.8px;
+  background-color: white;
+}
+
+.index-btn-wrapper {
+  font-size: 16px;
+  margin-top: 35px;
+  padding-left: 35px;
+  display: block;
+
+}
+
+#scroll_box::-webkit-scrollbar{
+  width: 4px;
+  height: 4px;
+}
+#scroll_box::-webkit-scrollbar-track{
+  background: black;
+  border: solid 0.5px  white;
+  border-radius: 10px;
+
+}
+#scroll_box::-webkit-scrollbar-thumb{
+  background: white;
+  border-radius: 10px;
+  box-shadow: none;
+}
+
+#scroll_box{
+  width :180px;
+  height :510px
+}
+
+.index-btn-wrapper {
+  overflow-y: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+
+.index-btn {
+  display: block;
+  background-color: black;
+  width:132px;
+  padding: 1px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.img-btn{
+  width: 130px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.index-btn:hover {
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+}
+
+
+
+/*-----------NEWS--------------------------*/
+#page_news{
+  padding-top: 110px;
+  margin-bottom: 200px;
+  padding-bottom: 100px;
+  background-color: #236966;
+}
+
+.news_work{
+  height: 800px;
+  witdh: 100%;
+  background-color: black;
+  margin-top: 200px;
+  font-family: "Hiragino Kaku Gothic";
+}
+
+.news_title{
+  float:left;
+  writing-mode: tb-rl;
+  font-size: 27px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-top: 160px;
+}
+
+.news_title_hidden{
+  font-size: 27px;
+  color: white;
+  display: none;
+}
+
+
+
+.slide-wrapper2 {
+  text-align: center;
+  width: 1000px;
+  margin: 0 auto;
+  color: white;
+  font-size: 30px;
+  padding-top: 60px;
+}
+
+
+
+.slides2 {
+  padding: 0;
+}
+
+.slide2 {
+  display: none;
+  height: 300px;
+}
+
+.active2{
+  display: block;
+}
+
+
+.slide2 img {
+  width: 500px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.index-btn-wrapper2 {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.index-btn2 {
+  display: inline-block;
+  background-color: #7B7B7B;
+
+  padding: 6px;
+  margin:5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.index-btn2:hover {
+  background-color: white;
+}
+
+.active3{
+  background-color: white;
+}
+
+/*-----------BIOGRAPHY------*/
+
+.wrapper-biography{
+  text-align: center;
+  width: 1200px;
+  margin: 0 auto;
+
+}
+
+#page_biography{
+  height: 550px;
+  padding: 75px 0px;
+  margin-bottom: 80px;
+  background-color: black;
+  font-family: "Hiragino Kaku Gothic";
+}
+
+.slide-wrapper3 {
+  position: absolute;
+  text-align: center;
+  width: 800px;
+  margin-left: 30px;
+  color: #5e6f84;
+  padding-top:30px;
+}
+
+
+
+.slides3 {
+  height: 400px;
+  width: 800px;
+  margin-top: 33px;
+}
+
+.slides3 li{
+  text-align: left;
+  padding: 20px;
+  color: black;
+}
+
+.slide3 {
+  display: none;
+  height: 400px;
+  width: 800px;
+  background-color: white;
+}
+
+.slide3 a{
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.active4{
+  display: block;
+}
+
+
+.slide3 img {
+  width: 500px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.index-btn-wrapper3{
+  position: relative;
+  top:5px;
+  left: 15px;
+  font-size: 16px;
+  width: 800px;
+  float: left;
+}
+
+.slides-wrapper{
+  text-decoration: none;
+  position: relative;
+  left:167px;    /*インデクスとセットになる*/
+}
+
+
+
+.index-btn3 {
+  display: inline-block;
+  background-color: #5EC6C9;
+  width: 90px;
+  height: 28px;
+  margin-right: 10px;
+  cursor: pointer;
+  color: white;
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+.index-btn3:hover {
+  background-color: #C8957B;
+  color: white;
+}
+
+.active5{
+  background-color: white;
+  color: #5EC6C9;
+}
+/*^^^^^^CONTACT^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+
+
+#page_contact{
+  height: 800px;
+  witdh: 100%;
+  background-color: black;
+  margin-top: 200px;
+  font-family: "Hiragino Kaku Gothic";
+}
+
+/*========DROPDOWN===========================*/
+
+.menu-icon {
+  display: none;
+  color: white;
+  z-index: 10;
+  width: 100%;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+
+
+
+.icon-hamburger{
+  padding: 20px;
+  font-size: 25px;
+  padding: 20px;
+}
+
+
+.drop{
+  display: none;
+}
+
+.dropactive{
+  display: block;
+  float: right;
+}
+
+
+.menu-container {
+  margin-top: -32;
+  position: relative;
+  padding-top: 0px;
+}
+
+.menu-container .menu .menu-item {
+  flex: 1;
+
+}
+
+
+.menu-container .menu .menu-item a:hover {
+  background: #ccc;
+  color: #ffffff;
+}
+
+.menu-container .menu .menu-item:last-child a {
+  border-right: none;
+
+}
+
+.menu-container .menu {
+    display: none;
+    position: absolute;
+    width: 100%;
+    border: 1px solid #ccc;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu-container .menu .menu-item a {
+    border-bottom: 1px solid #ccc;
+    border-right: none;
+    background: #fff;
+    color: #333;
+    display: block;
+    padding: 0.6em 0.4em;
+    text-align: center;
+    text-decoration: none;
+  }
+  .menu-container .menu .menu-item:last-child a {
+    border-bottom: none;
+      border-right: none;
+  }
